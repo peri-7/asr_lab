@@ -1,0 +1,10 @@
+
+# large files
+*.wav
+
+#large folders 
+datasets/
+embeddings/
+
+# cache
+__pycache__/
