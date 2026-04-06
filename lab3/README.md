@@ -20,6 +20,7 @@ pip install -r lab3/requirements.txt
 - [Glove Twitter](http://nlp.stanford.edu/data/glove.twitter.27B.zip):  50d vectors
   
 The project expects the file(s) to be in the `/embeddings` folder 
+
 A `/datasets` folder is expected to follow the structure in https://github.com/slp-ntua/slp-labs/tree/master/lab3 and contain the same files.
 
 --------------------------------------------------------------------------------------------------------------------
