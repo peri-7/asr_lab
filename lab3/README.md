@@ -26,12 +26,12 @@ A `/datasets` folder is expected to follow the structure in https://github.com/s
 --------------------------------------------------------------------------------------------------------------------
 Different versions of main correspond to different models.
 
-main.py -> BaselineDNN
+`main.py` -> BaselineDNN
 
-main2.py -> LSTM
+`main2.py` -> LSTM
 
-main3.py -> SimpleSelfAttentionModel
+`main3.py` -> SimpleSelfAttentionModel
 
-main4.py -> MultiHeadAttentionModel
+`main4.py` -> MultiHeadAttentionModel
 
-main5.py -> TransformerEncoderModel
+`main5.py` -> TransformerEncoderModel
