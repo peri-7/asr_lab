@@ -16,13 +16,16 @@ pip install -r lab3/requirements.txt
 ```
 
 #### 4 - Download pre-trained Word Embeddings
-In order to minimize the memory requirements you can use low dimensional word embeddings,
-such as the 50d Glove embeddings. However, if your computer has enough RAM you will get
-better results with higher dimensional embeddings.
 
-- [Glove 6B](http://nlp.stanford.edu/data/glove.6B.zip): Generic english word embeddings - 50d, 100d, 200d, & 300d vectors.
-- [Glove Twitter](http://nlp.stanford.edu/data/glove.twitter.27B.zip): Twitter specific word embeddings - 25d, 50d, 100d, & 200d vectors
+- [Glove Twitter](http://nlp.stanford.edu/data/glove.twitter.27B.zip):  50d vectors
+  
+The project expects the file(s) to be in the `/embeddings` folder 
+A `/datasets` folder is expected to follow the structure in https://github.com/slp-ntua/slp-labs/tree/master/lab3 and contain the same files.
 
- - [fastText](https://fasttext.cc/docs/en/english-vectors.html): Generic english word embeddings - only 300d vectors.
-
-The project expects the file(s) to be in the `/embeddings` folder.
+--------------------------------------------------------------------------------------------------------------------
+Different versions of main correspond to different models.
+main.py -> BaselineDNN
+main2.py -> LSTM
+main3.py -> SimpleSelfAttentionModel
+main4.py -> MultiHeadAttentionModel
+main5.py -> TransformerEncoderModel
