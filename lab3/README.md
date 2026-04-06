@@ -26,20 +26,20 @@ A `/datasets` folder is expected to follow the structure in https://github.com/s
 --------------------------------------------------------------------------------------------------------------------
 Different versions of main correspond to different models.
 
-`main.py` -> BaselineDNN
+☆`main.py` -> BaselineDNN
 
-`main2.py` -> LSTM
+☆`main2.py` -> LSTM
 
-`main3.py` -> SimpleSelfAttentionModel
+☆`main3.py` -> SimpleSelfAttentionModel
 
-`main4.py` -> MultiHeadAttentionModel
+☆`main4.py` -> MultiHeadAttentionModel
 
-`main5.py` -> TransformerEncoderModel
+☆`main5.py` -> TransformerEncoderModel
 
 There are also options to run pretrained models
 
 
-`transfer_pretrained.py ` -> get predictions from pre-trained : 
+☆`transfer_pretrained.py ` -> get predictions from pre-trained : 
           
 `siebert/sentiment-roberta-large-english`, `philipobiorah/bert-imdb-model`, `distilbert/distilbert-base-uncased-finetuned-sst-2-english`
 for MR dataset
@@ -49,12 +49,12 @@ for MR dataset
 
 
 
-`finetune_pretrained.py` -> fine tune 'bert-base-cased' model locally
+☆`finetune_pretrained.py` -> fine tune 'bert-base-cased' model locally
 
 
 
 
-`finetune_pretrained.ipynb` -> fine tuning:
+☆`finetune_pretrained.ipynb` -> fine tuning:
 
 `distilbert-base-uncased`, `albert-base-v2`, `google/electra-small-discriminator` for MR dataset 
 
